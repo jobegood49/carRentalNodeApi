@@ -1,0 +1,11 @@
+{
+  "name": "carRentalNodeApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jobegood49/carRentalNodeApi.git",
+  "author": "jonathannicolas <jonathan.s.nicolas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
