@@ -3,16 +3,12 @@ const logger = require('morgan')
 
 const app = express()
 
+const users = require('./routes/users.js')
+
 app.use(logger('dev'))
 
 //Routes
-
-app.get('/', (req, res, ext) => {
-    res.status(200).json({
-        message: 'you requested index page'
-    })
-})
-
+app.use('/users', users)
 
 //catch 404 and send to error handler
 app.use((req, res, next) => {
